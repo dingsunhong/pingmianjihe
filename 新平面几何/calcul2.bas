@@ -16,7 +16,7 @@ Public Function divide_v_string_by_number(v_s1 As v_string, v As String) As v_st
 divide_v_string_by_number.coord(0) = divide_string(v_s1.coord(0), v, True, False)
 divide_v_string_by_number.coord(1) = divide_string(v_s1.coord(1), v, True, False)
 End Function
-'Public Function cross_time_v_string(v_s1 As v_string, v_s2 As v_string) As String dfdfdf
+'Public Function cross_time_v_string(v_s1 As v_string, v_s2 As v_string) As String
 'cross_time_v_string = minus_string(time_string(v_s1.coord(0), v_s2.coord(1), False, False), _
             time_string(v_s1.coord(1), v_s2.coord(0), False, False), True, False)
 'End Function
